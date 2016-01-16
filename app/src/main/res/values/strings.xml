@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LoackPattern</string>
+
+    <!-- Create gesture activity -->
+    <string name="create_gesture_default">绘制解锁图案</string>
+    <string name="create_gesture_correct">再次绘制解锁图案</string>
+    <string name="create_gesture_less_error">至少连接4个点，请重新输入</string>
+    <string name="create_gesture_confirm_error">与上一次绘制不一致，请重新绘制</string>
+    <string name="create_gesture_confirm_correct">设置成功</string>
+    <string name="create_gesture_reset">重新设置</string>
+
+</resources>
