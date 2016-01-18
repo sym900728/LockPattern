@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.star.loackpattern">
+    package="com.star.demo">
 
     <application
         android:allowBackup="true"
@@ -8,14 +8,21 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.CreateGestureActivity">
+        <activity
+            android:name="com.star.demo.activity.SplashActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name="com.star.demo.activity.CreateGestureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.star.demo.activity.GestureLoginActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.star.loackpattern;
+package com.star.demo;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

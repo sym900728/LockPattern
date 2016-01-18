@@ -1,4 +1,4 @@
-package com.star.loackpattern.util.constant;
+package com.star.demo.util.constant;
 
 /**
  * Created by Sym on 15/12/23.

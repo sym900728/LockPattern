@@ -1,7 +1,18 @@
 <resources>
     <string name="app_name">LoackPattern</string>
 
+
+    <!-- Splash activity  -->
+    <string name="splash_activity">SplashActivity</string>
+
+    <!-- Gesture login activity -->
+    <string name="gesture_forget_gesture">忘记手势密码</string>
+    <string name="gesture_default">请输入手势密码</string>
+    <string name="gesture_error">手势密码输入错误</string>
+    <string name="gesture_correct">输入正确</string>
+
     <!-- Create gesture activity -->
+    <string name="create_gesture_activity">CreateGestureActivity</string>
     <string name="create_gesture_default">绘制解锁图案</string>
     <string name="create_gesture_correct">再次绘制解锁图案</string>
     <string name="create_gesture_less_error">至少连接4个点，请重新输入</string>

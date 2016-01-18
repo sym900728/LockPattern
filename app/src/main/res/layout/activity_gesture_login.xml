@@ -5,47 +5,44 @@
     android:background="@color/grey_f6f6f6"
     android:orientation="vertical">
 
-    <com.star.lockpattern.widget.LockPatternIndicator
-        android:id="@+id/lockPatterIndicator"
-        android:layout_width="@dimen/_30dp"
-        android:layout_height="@dimen/_30dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/_50dp" />
-
     <TextView
         android:id="@+id/messageTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/_20dp"
-        android:text="@string/create_gesture_default"
-        android:textColor="@color/grey_a5a5a5"
+        android:layout_marginTop="@dimen/_150dp"
         android:textSize="@dimen/_16sp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginTop="@dimen/_10dp"
         android:orientation="vertical">
 
         <com.star.lockpattern.widget.LockPatternView
             android:id="@+id/lockPatternView"
             android:layout_width="@dimen/_270dp"
-            android:layout_height="@dimen/_270dp" />
+            android:layout_height="@dimen/_270dp"
+            android:layout_gravity="center_horizontal" />
 
-        <Button
-            android:id="@+id/resetBtn"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/_40dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/_20dp"
-            android:background="@drawable/layout_grey_bg"
-            android:text="@string/create_gesture_reset"
-            android:textColor="@color/grey_a5a5a5"
-            android:textSize="@dimen/_16sp" />
+            android:layout_marginTop="@dimen/_10dp">
+
+            <Button
+                android:id="@+id/forgetGestureBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/layout_grey_bg"
+                android:paddingLeft="@dimen/_5dp"
+                android:paddingRight="@dimen/_5dp"
+                android:text="@string/gesture_forget_gesture"
+                android:textSize="@dimen/_14sp" />
+
+        </RelativeLayout>
 
     </LinearLayout>
-
-
 </LinearLayout>

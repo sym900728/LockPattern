@@ -12,6 +12,7 @@ import android.view.HapticFeedbackConstants;
 import android.view.MotionEvent;
 import android.view.View;
 
+import com.star.lockpattern.R;
 import com.star.lockpattern.util.LockPatternUtil;
 
 import java.util.ArrayList;
@@ -220,19 +221,19 @@ public class LockPatternView extends View {
 	 */
 	private void initPaints(){
 		defaultPaint = new Paint();
-		defaultPaint.setColor(0xFF78D2F6);
+		defaultPaint.setColor(getResources().getColor(R.color.blue_78d2f6));
 		defaultPaint.setStrokeWidth(2.0f);
 		defaultPaint.setStyle(Style.STROKE);
 		defaultPaint.setAntiAlias(true);
 		
 		selectPaint = new Paint();
-		selectPaint.setColor(0xFF00AAEE);
+		selectPaint.setColor(getResources().getColor(R.color.blue_00aaee));
 		selectPaint.setStrokeWidth(3.0f);
 		//selectPaint.setStyle(Style.STROKE);
 		selectPaint.setAntiAlias(true);
 		
 		errorPaint = new Paint();
-		errorPaint.setColor(0xFFF3323B);
+		errorPaint.setColor(getResources().getColor(R.color.red_f3323b));
 		errorPaint.setStrokeWidth(3.0f);
 		//errorPaint.setStyle(Style.STROKE);
 		errorPaint.setAntiAlias(true);

@@ -7,6 +7,7 @@ import android.graphics.Paint.Style;
 import android.util.AttributeSet;
 import android.view.View;
 
+import com.star.lockpattern.R;
 import com.star.lockpattern.util.LockPatternUtil;
 
 import java.util.List;
@@ -81,13 +82,13 @@ public class LockPatternIndicator extends View {
 	
 	private void initPaint() {
 		defaultPaint = new Paint();
-		defaultPaint.setColor(0xFFB2B2B2);
+		defaultPaint.setColor(getResources().getColor(R.color.grey_b2b2b2));
 		defaultPaint.setStrokeWidth(3.0f);
 		defaultPaint.setStyle(Style.STROKE);
 		defaultPaint.setAntiAlias(true);
 		
 		selectPaint = new Paint();
-		selectPaint.setColor(0xFF01AAEE);
+		selectPaint.setColor(getResources().getColor(R.color.blue_01aaee));
 		selectPaint.setStrokeWidth(3.0f);
 		selectPaint.setStyle(Style.FILL);
 		selectPaint.setAntiAlias(true);

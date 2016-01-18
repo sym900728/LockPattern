@@ -1,4 +1,4 @@
-package com.star.loackpattern;
+package com.star.demo;
 
 import org.junit.Test;
 

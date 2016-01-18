@@ -1,4 +1,4 @@
-package com.star.loackpattern.activity;
+package com.star.demo.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,9 +6,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.star.loackpattern.R;
-import com.star.loackpattern.util.cache.ACache;
-import com.star.loackpattern.util.constant.Constant;
+import com.star.demo.R;
+import com.star.demo.util.cache.ACache;
+import com.star.demo.util.constant.Constant;
 import com.star.lockpattern.util.LockPatternUtil;
 import com.star.lockpattern.widget.LockPatternIndicator;
 import com.star.lockpattern.widget.LockPatternView;
@@ -138,7 +138,7 @@ public class CreateGestureActivity extends Activity {
 	 * 成功设置了手势密码(跳到首页)
      */
 	private void setLockPatternSuccess() {
-		Toast.makeText(this, "create gesture success", Toast.LENGTH_SHORT);
+		Toast.makeText(this, "create gesture success", Toast.LENGTH_SHORT).show();
 	}
 
 	/**
