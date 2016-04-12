@@ -8,7 +8,6 @@
 
 ![test.gif](https://github.com/sym900728/LockPattern/blob/master/images/test.gif)
 
-
 ## LICENSE
 
     Copyright 2015 Shaoyaming
