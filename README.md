@@ -6,6 +6,10 @@
 2，可以开启震动模式，当选中一个圈的时候，手机会震动。</br>
 3，可以开启绘制路径隐藏模式。</br>
 
+## Problems
+If you have any problems, please send the email to me.
+My email address is symwork@163.com
+
 ![test.gif](https://github.com/sym900728/LockPattern/blob/master/images/test.gif)
 
 ## LICENSE
