@@ -8,7 +8,7 @@ Imitate Alipay gesture password
 
 ## Starting
 
-创建手势密码可以查看 CreateGestureActivity.java 文件.
+创建手势密码可以查看 CreateGestureActivity.java 文件.  
 登陆验证手势密码可以看 GestureLoginActivity.java 文件.
 
 ## Features
@@ -94,7 +94,7 @@ public void setInStealthMode(boolean inStealthMode) {
 
 ## Contact
 
-If you have any problems, you can send the email to me.
+如果你有什么问题, 或者什么建议, 可以发邮件给我.  
 Email address: symwork@163.com
 
 ## LICENSE
